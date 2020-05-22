@@ -1,0 +1,31 @@
+section{
+    font-size: 26px;
+    font-family: 'Courier New'; 
+    line-height: 1.6;
+    margin: 20px;
+    position: relative; 
+    top: 50px; 
+}
+
+.text{
+    position: relative; 
+    top: 35px;  
+    left: 50px; 
+    display: inline-block;
+    width: 45%;
+}
+
+li{
+    margin-left: 50px;
+    padding-left: 5px; 
+    list-style: disc;
+}
+img{
+    width: 500px; 
+    height: auto;
+    float: left; 
+}
+
+.industry{
+    font-weight:bold; 
+}

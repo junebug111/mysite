@@ -1,0 +1,24 @@
+*{
+  background-color:#edcfa8;
+}
+
+a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #274c5f;
+  font-family: Monteserrat;
+  margin: 20px; 
+  position: relative; 
+  left: 60px; 
+  top: 50px; 
+  /*background-color: #f7e5ab; */
+}
+
+.name{
+  font-size: 50px; 
+  font-weight: bold; 
+  /*display: inline-block;
+  width: 60%;*/
+
+}
+
