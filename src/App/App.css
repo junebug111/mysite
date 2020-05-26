@@ -1,24 +1,52 @@
-*{
-  background-color:#edcfa8;
+html{
+  background-color:#DEB887;
+  font-size: 25px;
+  font-family: Monteserrat, Helvetica, sans-serif; 
 }
 
-a{
+header{
+  margin-top: 0.5em;
+  width: 100%;
+  background-color: seashell; 
+  min-height: 4em; 
+}
+
+nav{
+  text-align: right; 
+}
+
+a{ 
   text-decoration: none;
-  font-size: 25px;
   color: #274c5f;
   font-family: Monteserrat;
-  margin: 20px; 
-  position: relative; 
-  left: 60px; 
-  top: 50px; 
-  /*background-color: #f7e5ab; */
+  display: inline-block;
+  margin: 1.5rem 1.5rem; 
 }
 
 .name{
-  font-size: 50px; 
-  font-weight: bold; 
-  /*display: inline-block;
-  width: 60%;*/
-
+  margin: 0.8rem 1.5rem; 
+  float: left;
+  font-size: 2rem; 
+  font-weight: bold;  
 }
+
+@media only screen and (max-width:1000px){
+  .name{
+    display: block;
+    width: 100%;  
+    text-align: center;
+    margin: 0.5rem 0.25rem;
+  }
+
+  nav{
+    text-align: center; 
+    margin: 0.5rem 0.5rem;
+  }
+
+  a{
+    margin: 0.5rem 1rem;
+  }
+}
+
+
 

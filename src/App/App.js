@@ -7,9 +7,14 @@ class App extends React.Component{
   render(){
     return(
       <div className="App">
-        <a class="name" href="../components/aboutMe">Christi Kim</a>
-        <a href="../components/aboutMe">About Me</a>
-        <a href={require("../components/resume.pdf")} target="_blank">Resume</a>
+        <header> 
+          <nav> 
+            <a className="name" href="../components/aboutMe">Christi Kim</a>
+            <a href="../components/aboutMe">About Me</a>
+            <a href={require("../components/blog")}>Blog</a>
+            <a href={require("../components/resume.pdf")} target="_blank">Resume</a>
+          </nav>
+        </header>
         <AboutMe />
       </div>
     );

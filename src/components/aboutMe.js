@@ -5,8 +5,10 @@ class AboutMe extends React.Component{
     render(){
         return(
             <section> 
-                <img src={require("./me.png")} alt="headshot of Christi" />
-                <div class="text"> 
+                <div className="image_container">
+                    <img src={require("./me.png")} alt="headshot of Christi" />
+                </div>
+                <div className="text"> 
                     <p>
                         Hi! My name is Christi and I am a rising junior at Columbia University 
                         majoring in computer science and minoring in East Asian studies. I love
@@ -20,7 +22,7 @@ class AboutMe extends React.Component{
                     <br /> 
 
                     <aside>
-                        <p class='industry'>Industry experience: </p>
+                        <p className='industry'>Industry experience: </p>
                         <ul>
                             <li>SWE Intern @Uber</li>
                             <li>Tech Analyst Intern @Bank of America</li>
